@@ -14,7 +14,7 @@ def solution(array, commands):
 
 
 #*     ***   another answer 1  ***     *#
-# 한번에 i, j, k로 입력받아 for문 없이도 만들 수 있다
+# 한번에 i, j, k로 입력받아 더 단순히 구현이 가능하다
 def solution(array, commands):
     answer = []
     for command in commands:
