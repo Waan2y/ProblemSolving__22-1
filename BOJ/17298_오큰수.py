@@ -13,5 +13,5 @@ for i in range(1, N):               # 전체 수열 순회
   while tA and A[tA[-1]] < A[i]:    # 검사할 수가 존재하고, 검사할 수의 오큰수를 만났음
     ans[tA.pop()] = A[i]            # 정답 list에 오큰수 입력
   tA.append(i)                      # 검사할 수가 없거나 검사할 수의 오큰수가 없음
-                                    # 현재 index의 수를 검사할 목록
+                                    # 현재 index의 수를 검사할 수 목록에 추가
 print(*ans)                         # answer
